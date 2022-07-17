@@ -1,7 +1,7 @@
 import React from 'react';
 import { useState, useEffect } from 'react'
 
-const App =() => {
+const App = () => {
 
     const [tvSeries, setTvSeries] = useState(null)
     const fetchData = async () =>{
